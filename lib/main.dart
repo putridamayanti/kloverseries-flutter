@@ -6,14 +6,23 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // TODO: implement build
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+      theme: ThemeData.dark(),
+      home: Scaffold(
+        body: Splashscreen(),
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
+//  Widget build(BuildContext context) {
+//    return MaterialApp(
+//      title: 'Flutter Demo',
+//      theme: ThemeData(
+//        primarySwatch: Colors.blue,
+//      ),
+//      home: MyHomePage(title: 'Flutter Demo Home Page'),
+//    );
+//  }
 }
 
 class MyHomePage extends StatefulWidget {

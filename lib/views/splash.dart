@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:kloverseries_app/views/home.dart';
+import 'package:kloverseries_app/src/app.dart';
+import 'package:kloverseries_app/src/ui/home.dart';
 
 class Splashscreen extends StatefulWidget {
   @override
@@ -35,6 +37,6 @@ class AfterSplashScreen extends StatelessWidget {
   @override
 
   Widget build(BuildContext context) {
-    return new HomeScreen();
+    return new Home();
   }
 }
